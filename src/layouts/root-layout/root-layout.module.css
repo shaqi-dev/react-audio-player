@@ -1,0 +1,5 @@
+.main {
+  min-height: 100vh;
+  background: url('assets/bg-logo.svg') no-repeat right;
+  background-size: contain;
+}
