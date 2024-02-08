@@ -3,7 +3,7 @@ import {clsx} from "clsx";
 
 export const RootLayout = ({className, children, ...rest}: React.ComponentProps<'main'>) => {
     return (
-        <main className={clsx(styles.main, className)} {...rest}>
+        <main className={clsx(styles.root, className)} {...rest}>
             {children}
         </main>
     );

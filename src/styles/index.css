@@ -1,0 +1,17 @@
+@import "modern-normalize.min.css";
+
+body {
+  margin: 0;
+}
+
+input[type="range"] {
+  width: 100%;
+
+  &:hover {
+    cursor: grab;
+  }
+
+  &:active {
+    cursor: grabbing;
+  }
+}

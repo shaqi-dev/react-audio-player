@@ -1,0 +1,24 @@
+.root {
+    position: relative;
+    display: flex;
+    column-gap: 9px;
+    background: #FFFFFF;
+    padding: 6px 70px 6px 12px;
+    margin-left: -160px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    background: url("./assets/logo.svg") no-repeat center;
+    background-color: #FFFFFF;
+    width: min-content;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 12px;
+    flex-grow: 1;
+    padding: 26px 0;
+    width: 342px;
+}

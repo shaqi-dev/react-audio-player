@@ -1,0 +1,83 @@
+/* Common styles */
+.root {
+    -webkit-appearance: none;
+    width: 100%;
+    background: #C5C6C5;
+    outline: none;
+}
+
+.root::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #05AC6A;
+    border-radius: 50%;
+    border: none;
+}
+.root::-moz-range-thumb {
+    background: #05AC6A;
+    border-radius: 50%;
+    border: none;
+}
+
+.root:active::-webkit-slider-thumb {
+    background: #81BEA4;
+}
+.root:active::-moz-range-thumb {
+    background: #81BEA4;
+}
+
+.root::-webkit-progress-value,
+.root::-moz-range-progress {
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, #05AC6A 35%, #AFC3BA);
+}
+
+/* Disabled styles */
+.root:disabled {
+    cursor: not-allowed;
+}
+
+.root:disabled::-webkit-slider-thumb {
+    background: #C5C6C5;
+}
+.root:disabled::-moz-range-thumb {
+    background: #C5C6C5;
+}
+
+/* Styles for slider with size 'sm' */
+.sm {
+    height: 2px;
+}
+
+.sm::-webkit-slider-thumb {
+    width: 12px;
+    height: 12px;
+}
+.sm::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+}
+
+.sm::-webkit-progress-value,
+.sm::-moz-range-progress {
+    height: 2px;
+}
+
+/* Styles for slider with size 'base' */
+.base {
+    height: 4px;
+}
+
+.base::-webkit-slider-thumb {
+    width: 14px;
+    height: 14px;
+}
+.base::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+}
+
+.base::-webkit-progress-value,
+.base::-moz-range-progress {
+    height: 4px;
+}

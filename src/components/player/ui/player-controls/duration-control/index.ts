@@ -1,0 +1,1 @@
+export {DurationControl} from './duration-control'
