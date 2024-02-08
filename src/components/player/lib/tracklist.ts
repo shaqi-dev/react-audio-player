@@ -3,14 +3,20 @@ import {Track} from "../model";
 export const tracklist: Track[] = [
     {
         id: 1,
-        title: 'Summer',
-        audioSrc: 'https://www.bensound.com/bensound-music/bensound-summer.mp3',
-        coverSrc: 'https://www.bensound.com/bensound-img/summer.jpg',
+        title: 'Bass Buzzer',
+        audioSrc: 'https://cdn.bensound.com/bensound-lofinerdbassbuzzer.mp3',
+        coverSrc: 'https://cdn.bensound.com/image/cover/elliot-X2.webp',
     },
     {
         id: 2,
-        title: 'Sunny',
-        audioSrc: 'https://www.bensound.com/bensound-music/bensound-sunny.mp3',
-        coverSrc: 'https://www.bensound.com/bensound-img/sunny.jpg',
+        title: 'Les Prisonnieres',
+        audioSrc: 'https://cdn.bensound.com/bensound-lesprisonnieres.mp3',
+        coverSrc: 'https://cdn.bensound.com/image/cover/benjaminlazzarus-grey-X2.webp',
+    },
+    {
+        id: 3,
+        title: 'Sci Fi',
+        audioSrc: 'https://cdn.bensound.com/bensound-scifi.mp3',
+        coverSrc: 'https://cdn.bensound.com/image/cover/scifi-X2.webp',
     },
 ]
