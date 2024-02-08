@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-audio-player/static/css/main.5d37c15b.css",
+    "main.js": "/react-audio-player/static/js/main.c64551db.js",
+    "static/media/volume-loud.svg": "/react-audio-player/static/media/volume-loud.9cbf4550cfc4e5f103e5a035f7abaadf.svg",
+    "static/media/volume-cross.svg": "/react-audio-player/static/media/volume-cross.08fd41f4e3cae93b4b3cd29ed7194f24.svg",
+    "static/media/play.svg": "/react-audio-player/static/media/play.507de09b20e7c7091e0d2b9688517334.svg",
+    "static/media/next.svg": "/react-audio-player/static/media/next.697ed7a353e7fe238dd573f3b50c49ff.svg",
+    "static/media/prev.svg": "/react-audio-player/static/media/prev.3cfd72053c2d23111ce8206dd0bf5c2e.svg",
+    "index.html": "/react-audio-player/index.html",
+    "static/media/bg-logo.svg": "/react-audio-player/static/media/bg-logo.16e653568da30d96292b.svg",
+    "static/media/logo.svg": "/react-audio-player/static/media/logo.d7ce97b009f4ab8225f3.svg",
+    "main.5d37c15b.css.map": "/react-audio-player/static/css/main.5d37c15b.css.map",
+    "main.c64551db.js.map": "/react-audio-player/static/js/main.c64551db.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d37c15b.css",
+    "static/js/main.c64551db.js"
+  ]
+}
